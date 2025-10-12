@@ -160,8 +160,8 @@ def main():
     video2size = load_video_size_map(width_height_excel)
 
     # 2) Input/output directories
-    in_root = "/media/robert/4TB-SSD/watchped_dataset/Excal_image_时间_video"
-    out_root = "/media/robert/4TB-SSD/watchped_dataset/Excel_image_时间_video_04"
+    in_root = "/media/robert/4TB-SSD/watchped_dataset"
+    out_root = "/media/robert/4TB-SSD/watchped_dataset"
     os.makedirs(out_root, exist_ok=True)
 
     total_processed = 0
