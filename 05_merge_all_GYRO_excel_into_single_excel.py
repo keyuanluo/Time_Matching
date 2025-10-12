@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 def main():
-    root_dir = "/media/robert/4TB-SSD/watchped_dataset/Sensor_acc补充"
+    root_dir = "/media/robert/4TB-SSD/watchped_dataset/Sensor_acc"
     all_dfs = []
 
     # 1) Traverse all subfolders
