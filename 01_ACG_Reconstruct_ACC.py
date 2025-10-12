@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 def main():
-    root_dir = "/media/robert/4TB-SSD/watchped_dataset/Sensor_video_acc补充"
+    root_dir = "/media/robert/4TB-SSD/watchped_dataset/Sensor_video_acc"
     gravity_value = 9.80655  # Gravitational acceleration to subtract
 
     for folder_name in os.listdir(root_dir):
